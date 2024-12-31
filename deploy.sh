@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Définir les variables
-APP_NAME="milyes.github.io"
+APP_NAME="milyes_app"
 APP_DIR="/var/www/html/$APP_NAME"
 REPO_URL="https://github.com/milyes/milyes.github.io.git"
 
