@@ -26,6 +26,10 @@ check_error() {
 install_app() {
     echo "Installation de l'application..."
 
+    # Créer le répertoire si nécessaire
+    sudo mkdir -p $APP_DIR
+    check_error "Échec de la création du répertoire $APP_DIR"
+
     # Cloner le repo
     git clone $REPO_URL $APP_DIR
     check_error "Échec du clonage du dépôt"
@@ -53,7 +57,7 @@ update_app() {
 }
 
 # Vérifier les arguments
-if [ $# -eq 0 ]; then
+if [ $# -eq 0 ]; alors
     usage
     exit 1
 fi
