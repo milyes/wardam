@@ -36,3 +36,4 @@ git clone https://github.com/milyes/milyes.git
 cd milyes
 
 echo "La machine virtuelle Android TV est prête et le dépôt GitHub est cloné!"
+~ $
