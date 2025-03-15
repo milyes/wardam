@@ -17,7 +17,7 @@ NetSecurePro est une plateforme IA avancée qui **scanne, analyse et optimise le
 
 ## 📦 Installation
 ```bash
-git clone https://github.com/MX76/NetSecurePro.git
+git clone https://github.com/milyes/NetSecurePro.git
 cd NetSecurePro
 pip install -r requirements.txt
 npm install
